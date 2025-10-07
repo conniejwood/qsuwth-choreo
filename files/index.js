@@ -9,7 +9,7 @@ const NEZHA_KEY = process.env.NEZHA_KEY || '';   // 没用哪吒，把这个参�
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'qsuwth.frey57.dpdns.org';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYjczNmMwM2M5Yjk3MDdlMWU2N2I4ODExMWU2OWViZjMiLCJ0IjoiODRlNTJjMDEtMjk1YS00ZWQyLTkyNDUtOTI1NDU3YzU4ODE3IiwicyI6IlpESXlNalkwT1RjdE1tUTBZUzAwWVRaa0xUbG1aRGd0TjJRMVpHSTNNVFZqTXpVMiJ9';
 const CFIP = process.env.CFIP || 'www.visa.com.tw';
-const NAME = process.env.NAME || 'qsuwth';
+const NAME = process.env.NAME || 'qsuwthe';
 
 // root route
 app.get("/", function(req, res) {
